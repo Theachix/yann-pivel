@@ -2465,8 +2465,8 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  margin-right: 1%;
-  margin-bottom: 1%;
+  margin-right: 1.2%;
+  margin-bottom: 1.7%;
 }
 .form-switch .form-check-input {
   width: 2em;
