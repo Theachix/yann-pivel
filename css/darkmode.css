@@ -1,0 +1,60 @@
+body.dark {
+    background-color: #333;
+    color:#f1f1f1;
+}
+
+body.dark .link-footer {
+    color: white;
+}
+
+body.dark .link-footer:hover {
+    color: goldenrod;
+}
+
+body.dark .portfolio-caption-heading {
+    color: #333;
+}
+
+body.dark .skills-heading {
+    color: #f1f1f1;
+}
+
+
+body.dark .projets {
+    background-color: #333;
+  }
+
+
+ body.dark #skills span {
+    color: rgb(201, 92, 101);
+  }
+   
+
+body.dark .skills-heading a {
+    color:rgb(192, 230, 252)
+    
+  }
+
+body.dark .skills-heading a:hover {
+    color:rgb(81, 123, 148)
+  }
+
+
+body.dark .skills-heading, .skills-heading a:link {
+    font-weight: 400;
+} 
+    
+
+body.dark #skills .skills-item {
+    box-shadow : 1px 1px 3px black;
+
+}
+
+body.dark .escape {
+    color: #f1f1f1
+}
+
+
+body.dark header.masthead {
+    filter: contrast(110%);
+}
