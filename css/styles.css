@@ -7368,6 +7368,12 @@ textarea.form-control-lg {
   white-space: normal !important;
 }
 
+
+.text-cursive {
+  font-family: 'Dancing Script', cursive;
+  padding-top: 1%;
+}
+
 .text-nowrap {
   white-space: nowrap !important;
 }
