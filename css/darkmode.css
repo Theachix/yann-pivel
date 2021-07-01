@@ -58,3 +58,14 @@ body.dark .escape {
 body.dark header.masthead {
     filter: contrast(110%);
 }
+
+
+body.dark .form-switch {
+    background-color: goldenrod;
+    border:1px solid grey;
+
+}
+
+body.dark .form-switch i{
+    color: #111;
+}
