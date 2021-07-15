@@ -11200,6 +11200,7 @@ header.masthead {
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/sunset.png");
+  height:100vh;
   background-repeat: no-repeat;
   filter: contrast(110%);
   background-attachment: scroll;
