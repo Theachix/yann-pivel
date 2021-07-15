@@ -1,12 +1,12 @@
 
-ScrollReveal({reset:true});
+
 ScrollReveal().reveal('.section-heading')
 
 
 
 ScrollReveal().reveal('.me');
 ScrollReveal().reveal('.devp', { delay: 500 });
-ScrollReveal().reveal('.format', { delay: 1500 });
+ScrollReveal().reveal('.format', { delay: 1000 });
 
 
 ScrollReveal().reveal('.dates', { delay: 300 });
