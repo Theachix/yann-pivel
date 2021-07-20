@@ -3,6 +3,13 @@ body.dark {
     color:#f1f1f1;
 }
 
+body.dark header.masthead {
+    filter: grayscale(80%);
+    background-color: #09b634;
+    background-blend-mode: color-burn; 
+}
+
+
 body.dark .link-footer {
     color: white;
 }
@@ -54,10 +61,6 @@ body.dark .escape {
     color: #f1f1f1
 }
 
-
-body.dark header.masthead {
-    filter: contrast(110%);
-}
 
 
 body.dark .form-switch {
