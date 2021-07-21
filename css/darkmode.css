@@ -4,8 +4,8 @@ body.dark {
 }
 
 body.dark header.masthead {
-    filter: grayscale(80%);
-    background-color: #09b634;
+    filter: grayscale(98%);
+    background-color: #66a8a2;
     background-blend-mode: color-burn; 
 }
 
