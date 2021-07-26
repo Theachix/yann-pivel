@@ -11663,12 +11663,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: rgb(207, 4, 4);
 }
 
-.why {background-image: linear-gradient(to bottom right, #FF8008 0%, #FFC837  51%, #FF8008  100%)}
-
-.why h4 {
-  font-family: 'Poppins Light';
-  text-shadow: 1px 1px 5px black;
-}
+.why {
+    background-image: url("../assets/img/illu/pk.png");
+    background-position: center center;
+    background-size: cover;
+  }
 
 .escape {
   text-align:center;
