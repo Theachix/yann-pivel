@@ -11564,7 +11564,7 @@ a:hover span, a:focus span{
   box-shadow:0 0 2px rgba(0,0,0,.5);
   transform:scale(0) rotate(-12deg);
   transition:all .25s;
-  padding-right: 2%;
+  padding-right: 7vh;
 }
 
 #checked {
@@ -11733,4 +11733,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-top:2vh;
 }
 
+@media (max-width: 768px) {
+  .vaccin span{
+    margin-top:40px;
+    margin-left: -200px;
+}
+}
 
