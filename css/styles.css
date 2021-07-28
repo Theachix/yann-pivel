@@ -11521,6 +11521,14 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+.vaccin {
+  width: 38px!important;
+  height: 38px!important;
+  position: absolute;
+  border:2px solid greenyellow!important;
+  border-radius: 100%;
+}
+
 .img-brand {
   height: 2.75rem;
 }
