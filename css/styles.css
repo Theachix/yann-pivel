@@ -11521,13 +11521,60 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
-.vaccin {
+.vaccin img {
   width: 38px!important;
   height: 38px!important;
   position: absolute;
   border:2px solid greenyellow!important;
   border-radius: 100%;
 }
+
+
+
+.vaccin a:link{
+  color:#ccc!important;
+  text-shadow:0 -1px 0 black;                
+}
+
+.vaccin a:hover,a:focus{
+  background:rgba(0,0,0,.4);
+  box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+
+.vaccin span{
+  position:absolute;   
+  opacity: 0;             
+
+}
+
+a:hover span, a:focus span{
+  opacity:1;
+  transform:scale(1) rotate(0);    
+}
+
+
+.vaccin span{
+  font-family: 'Poppins Light';
+  margin-top:40px;
+  margin-left: 5px;
+  color:rgb(219, 246, 255);
+  background:rgba(0, 0, 0, 0.534);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+  padding-right: 2%;
+}
+
+#checked {
+  width: 50px!important;
+  height: 40px!important;
+  border:none!important;
+  padding-bottom: 4%;
+  padding-right: 2%;
+}
+
 
 .img-brand {
   height: 2.75rem;
