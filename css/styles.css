@@ -11735,8 +11735,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 @media (max-width: 768px) {
-   .masthead-heading {
+  .masthead-heading {
     padding-top: 22%;
+  }
+
+  .form-switch {
+    margin-right: -2% ;
+    margin-bottom: 5%;
   }
 	
   .vaccin span{
