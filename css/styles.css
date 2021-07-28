@@ -11736,7 +11736,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 768px) {
    .masthead-heading {
-    top: 40%;
+    padding-top: 22%;
   }
 	
   .vaccin span{
