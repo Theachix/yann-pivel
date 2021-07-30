@@ -11771,6 +11771,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   
 }
 
+a.active {
+  color: rgb(100, 19, 19);
+  pointer-events: none; 
+  cursor: default; 
+}
+
 
 .escape {
   text-align:center;
@@ -11794,6 +11800,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   .vaccin span{
     margin-top:40px;
     margin-left: -200px;
+}
+  .dropdown-content {
+    position: absolute;
+    bottom: 0.2vh;  
+    left: 28vw;
 }
 }
 
