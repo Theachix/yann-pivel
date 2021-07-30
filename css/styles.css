@@ -11762,6 +11762,10 @@ div.activated {
   background: linear-gradient(0deg, rgba(171,171,171,0.4822303921568627) 0%, rgba(145,145,145,0.5382528011204482) 50%, rgba(255,255,255,0.76234243697479) 51%);
 }
 
+.dropdown:hover img {
+  filter: hue-rotate(180deg);
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
   }
