@@ -11788,6 +11788,11 @@ a.active {
   cursor: default; 
 }
 
+.dropdown-content a:active {
+  background: none;
+  color: turquoise;
+  text-decoration: none;
+}
 
 .escape {
   text-align:center;
