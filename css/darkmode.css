@@ -72,3 +72,7 @@ body.dark .form-switch {
 body.dark .form-switch i{
     color: #111;
 }
+
+body.dark .skill .icon-holder {
+    background:#333;
+}
