@@ -11851,7 +11851,7 @@ a.activable:hover {
 .skill {
 	width: 100%;
 	height: 320px;
-	margin: 80px 0;
+	margin: 50px 0;
 	text-align: center;
 	border: 1px solid #ddd;
 	-webkit-transition: all 0.3s ease;
