@@ -11086,6 +11086,12 @@ p {
   border-radius: 100%;
 }
 
+
+.btn-social:hover {
+  filter: contrast(80%);
+}
+
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
