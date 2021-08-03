@@ -11888,7 +11888,7 @@ a.activable:hover {
 	border: 1px solid;
   border-image-slice: 1;
   border-width: 1px;
-  border-image-source: linear-gradient(to right, #47D5E7, #E742FC);
+  border-image-source: linear-gradient(to right, #ffd000, #FFBC27);
 }
 
 .skill:hover .icon-holder {
