@@ -11517,10 +11517,12 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .myself img {
-  width: 14rem;
-  height: 14rem;
-  filter: contrast(80%);
-  border: 0.3rem solid rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to right, #021E4C, rgb(0, 0, 0));;
+  width: auto;
+  height: 18rem;
+  border: 0.3rem solid #f1f1f1;
+  background-color: #ffd5f2; 
+  background-blend-mode: darken;  
   }
 
 .myself h4, .myself .h4 {
