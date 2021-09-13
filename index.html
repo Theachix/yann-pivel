@@ -409,7 +409,7 @@
             <div id="flexSwitchCheckChecked"><i class="bi bi-moon"></i></div>
             </div>
         </div>
-    <!-- Contact -->
+    <!-- Contact 
 
     <section class="page-section" id="contact">
         <div class="container">
@@ -431,7 +431,59 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+	<!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Ecrivez-moi !</h2>
+                    <h3 class="section-subheading text-muted yellow">Je me ferais un plaisir de vous répondre !</h3>
+                    <form id="contactForm" method="post" action="https://formspree.io/f/myyloypn">
+                        <div class="row align-items-stretch mb-5">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <!-- Name input-->
+                                    <input class="form-control" id="name" type="text" placeholder="Votre nom *" 
+                                    required pattern ="^[A-Za-z '-]+$" maxlength="20">
+                                </div>
+                                <div class="form-group">
+                                    <!-- Email address input-->
+                                    <input class="form-control" id="email" type="email" placeholder="Votre e-mail *" 
+                                    required pattern ="^[a-z0-9._!-]{1,15}@[a-z]{1,7}\.[a-z.]{2,5}$">
+                                </div>
+                                <div class="form-group mb-md-0">
+                                    <!-- Phone number input-->
+                                    <input class="form-control" id="phone" type="tel" placeholder="Votre numéro de téléphone *" 
+                                    minlength="10" maxlength="14">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-group-textarea mb-md-0">
+                                    <!-- Message input-->
+                                    <textarea class="form-control" id="message" placeholder="Votre message *" required></textarea>                                
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center text-white mb-3">
+                                <div class="fw-bolder">Message envoyé avec succès</div>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erreur lors de l'envoi du message !</div></div>
+                        <!-- Submit Button-->
+                        <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Envoyer</button></div>
+                    </form>
+                </div>
+            </section>
 
     <!-- Footer-->
     <footer class="footer py-4">
