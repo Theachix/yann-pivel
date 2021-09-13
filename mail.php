@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
 
 
 
-    $retour = mail('yann.pivel@hotmail.fr', 'Envoi depuis la page Contact',/*$_POST["name"], $_POST["email"], $_POST["phone"],*/ $_POST['message'], 'From : webmaster@yannpivel.fr');
+    $retour = mail('yann.pivel@hotmail.fr', 'Envoi depuis la page Contact',$_POST["name"], $_POST["email"], $_POST["phone"], $_POST['message'], 'From : webmaster@yannpivel.fr');
     if ($retour) {
         echo '<p>Votre message a bien été envoyé.</p>';
     }
