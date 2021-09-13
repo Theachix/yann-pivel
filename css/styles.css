@@ -11591,10 +11591,11 @@ a:hover span, a:focus span{
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/2844240.jpg");
+  background-color: #2d5f5b; 
+  background-blend-mode: darken;  
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 section#contact .section-heading {
   color: #fff;
