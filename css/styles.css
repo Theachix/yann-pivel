@@ -11112,7 +11112,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 3rem;
+  height: 2rem;
   filter: contrast(165%);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -11167,7 +11167,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 3rem;
+    height: 2rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11180,7 +11180,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 3rem;
+    height: 2.4rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
