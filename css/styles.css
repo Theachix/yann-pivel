@@ -11112,7 +11112,6 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 2.4rem;
   filter: contrast(165%);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -11163,7 +11162,6 @@ p {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-size: 2.4rem;
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
@@ -11179,7 +11177,6 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 2.4rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
