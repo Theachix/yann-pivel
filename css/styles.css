@@ -11210,7 +11210,7 @@ header.masthead {
   background-image: url("../assets/img/sunset.png");
   height:100vh;
   background-repeat: no-repeat;
-  filter: contrast(110%);
+  filter: contrast(90%);
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
